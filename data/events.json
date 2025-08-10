@@ -1,0 +1,32 @@
+[
+  {
+    "time": "07:30",
+    "title": "Đón khách & check-in",
+    "desc": "Khu vực cổng trường, bàn tiếp tân."
+  },
+  {
+    "time": "08:00",
+    "title": "Khai mạc",
+    "desc": "Chào cờ, tuyên bố lý do, giới thiệu đại biểu."
+  },
+  {
+    "time": "08:30",
+    "title": "Văn nghệ",
+    "desc": "Tiết mục CLB Văn nghệ & cựu học sinh."
+  },
+  {
+    "time": "09:15",
+    "title": "Phát biểu",
+    "desc": "Ban giám hiệu & đại diện cựu học sinh."
+  },
+  {
+    "time": "10:00",
+    "title": "Giao lưu",
+    "desc": "Ký tặng kỷ yếu, tham quan khuôn viên."
+  },
+  {
+    "time": "11:00",
+    "title": "Bế mạc",
+    "desc": "Chụp ảnh tập thể, bế mạc chương trình."
+  }
+]

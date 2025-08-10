@@ -1,0 +1,95 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Trang chủ – Trường THPT Võ Văn Kiệt</title>
+  <meta name="description" content="Kỷ niệm thành lập Trường THPT Võ Văn Kiệt">
+  <link rel="icon" href="assets/images/logo.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- AOS & GLightbox via CDN -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css">
+</head>
+<body>
+<div class="page">
+<header class="site-header">
+  <a class="brand" href="index.html">
+    <img src="assets/images/logo.svg" alt="Logo" />
+    <span class="brand-text">Trường THPT Võ Văn Kiệt</span>
+  </a>
+  <nav class="nav">
+    <a href="about.html">Giới thiệu</a>
+    <a href="leadership.html">Lãnh đạo</a>
+    <a href="events.html">Sự kiện</a>
+    <a href="gallery.html">Thư viện</a>
+    <a href="guestbook.html">Sổ lưu bút</a>
+    <a href="alumni.html">Cựu HS</a>
+    <a href="fun.html">Giải trí</a>
+    <a href="extras.html">Bổ sung</a>
+  </nav>
+  <button id="themeToggle" class="btn ghost">🌓</button>
+</header>
+<main class="content">
+
+<section class="hero">
+  <div class="hero-text">
+    <h1>Kỷ niệm thành lập <span class="accent">Trường THPT Võ Văn Kiệt</span></h1>
+    <p class="subtitle">Gắn kết – Tri ân – Tỏa sáng</p>
+    <div id="stateBadge" class="badge">Đang chuẩn bị</div>
+    <div id="countdown" class="countdown">
+      <div><span id="d">00</span><label>Ngày</label></div>
+      <div><span id="h">00</span><label>Giờ</label></div>
+      <div><span id="m">00</span><label>Phút</label></div>
+      <div><span id="s">00</span><label>Giây</label></div>
+    </div>
+    <div id="livePanel" class="live hidden">
+      <h3>🎉 Chúc mừng! Sự kiện đang diễn ra</h3>
+      <div class="yt-wrap">
+        <iframe id="liveIframe" src="" title="Livestream" frameborder="0" allowfullscreen></iframe>
+      </div>
+      <div class="schedule">
+        <h4>Chương trình hôm nay</h4>
+        <ul id="eventList"></ul>
+      </div>
+    </div>
+    <div id="afterPanel" class="after hidden">
+      <h3>💖 Xin cảm ơn!</h3>
+      <p>Xem lại album ảnh & video nổi bật:</p>
+      <p><a class="btn" href="gallery.html">Mở Thư viện ảnh</a></p>
+    </div>
+    <div class="cta">
+      <a class="btn" href="events.html">Xem lịch</a>
+      <a class="btn ghost" href="guestbook.html">Gửi lời chúc</a>
+    </div>
+  </div>
+  <div class="hero-art">
+    <img class="hero-img" src="assets/images/danh-gia-truong-thpt-vo-van-kiet-bac-lieu-co-tot-khong__1_.webp" alt="Khuôn viên trường"/>
+  </div>
+</section>
+
+<section class="features">
+  <div class="feature">
+    <h3>Timeline lịch sử</h3>
+    <p>Đi qua những cột mốc của nhà trường từ ngày đầu thành lập.</p>
+  </div>
+  <div class="feature">
+    <h3>Lãnh đạo qua các thời kỳ</h3>
+    <p>Tri ân các thế hệ Ban giám hiệu đã dẫn dắt và phát triển trường.</p>
+  </div>
+  <div class="feature">
+    <h3>Ký ức & Lời chúc</h3>
+    <p>Viết nên những câu chuyện đẹp, gắn kết thế hệ.</p>
+  </div>
+</section>
+
+</main>
+<footer class="site-footer">
+  <p>© <span id="year"></span> Trường THPT Võ Văn Kiệt. Triển khai trên GitHub Pages.</p>
+</footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+<script src="assets/js/main.js"></script>
+</body></html>
